@@ -5,43 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Click Fit - Your ultimate destination for sports and fitness. Get the latest fitness tips, sports news, and workout routines."
+      content="Click Fit"
     />
-    <title>Click Fit - The Sports and Fitness Hub</title>
+    <title>Click Fit</title>
     <meta
       name="keywords"
-      content="fitness, sports, gym, workout, health, exercise, training, sports news, fitness tips"
+      
     />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://github.com/nsanzimfura-eric" />
-    <meta property="og:title" content="Click Fit - Sports and Fitness Hub" />
-    <meta
-      property="og:description"
-      content="Your ultimate destination for sports and fitness. Get the latest fitness tips, sports news, and workout routines."
-    />
-    <meta
-      property="og:image"
-      content="https://avatars.githubusercontent.com/u/91186046?v=4"
-    />
-
-    <!-- Twitter -->
-    <meta property="github:card" content="summary_large_image" />
-    <meta property="github:url" content="https://github.com/nsanzimfura-eric" />
-    <meta
-      property="github:title"
-      content="Click Fit - Sports and Fitness Hub"
-    />
-    <meta
-      property="github:description"
-      content="Your ultimate destination for sports and fitness. Get the latest fitness tips, sports news, and workout routines."
-    />
-    <meta
-      property="github:image"
-      content="https://avatars.githubusercontent.com/u/91186046?v=4"
-    />
-    <!-- Links -->
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -62,7 +32,7 @@
       rel="stylesheet"
     />
     <!-- css -->
-    <link rel="icon" href="./assets/images/click-fit.ico" type="image/x-icon" />
+
     <link rel="stylesheet" href="./assets/css/index.css" />
     <link rel="stylesheet" href="./assets/css/imagesSliders.css" />
   </head>
@@ -71,27 +41,25 @@
     <main>
       <div class="main-wrapper bg-none position-relative" id="home">
         <!-- bg gif absolute -->
+     
         <img
-          src="./assets/images/bg1.gif"
+          src="./assets/images/giphy.gif"
           class="click-fit-bg-gif position-absolute"
           alt="Bg gif Arms"
           id="bgArms"
         />
         <img
-          src="./assets/images/bg2.gif"
+          src="./assets/images/giphy (1).gif"
           class="click-fit-bg-gif position-absolute"
           alt="Bg gif Arms"
           id="bgDots"
         />
+        
         <!-- ############# header -- Navbar-->
         <nav class="navbar navbar-expand-lg bg-none click-fit-header">
           <div class="container-fluid bg-none">
             <a class="navbar-brand me-auto" href="#home">
-              <img
-                class="click-fit-logo"
-                src="./assets/images/logo.svg"
-                alt="Logo"
-              />
+              <h1 class="click-fit-logo ">Click Fit</h1>
             </a>
             <button
               class="navbar-toggler"
@@ -102,34 +70,26 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <img
-                src="./assets/images/manu.svg"
-                class="navbar-toggler-icon"
-                alt="Menu"
-              />
+              
             </button>
             <div class="collapse bg-none navbar-collapse" id="navbarText">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item mx-md-1">
-                  <a class="nav-link active" href="#home" aria-current="page"
+                  <a class="nav-link" href="#home" aria-current="page"
                     >Home</a
                   >
                 </li>
-                <li class="nav-item mx-md-1">
-                  <a class="nav-link" href="#home">About</a>
-                </li>
+                
                 <li class="nav-item mx-md-1">
                   <span
                     class="nav-link"
                     id="staticBackdropLabelClientsList"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdropLabelClientsListModal"
-                    >Clients List</span
+                    >Registered Clients</span
                   >
                 </li>
-                <li class="nav-item mx-md-1">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
+            
               </ul>
               <button
                 type="button"
@@ -137,7 +97,7 @@
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
-                Register a Client
+                Register
               </button>
             </div>
           </div>
@@ -155,14 +115,14 @@
             <div
               class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
             >
-              <div class="modal-content bg-dark">
+              <div class="modal-content bg-white">
                 <div class="modal-header">
-                  <h5 class="modal-title titleAdd" id="staticBackdropLabel">
-                    Add a user
+                  <h5 class="modal-title text-dark titleAdd" id="staticBackdropLabel">
+                    Register A Client
                   </h5>
                   <button
                     type="button"
-                    class="close closeBtn"
+                    class="close closeBtn bg-dark"
                     data-bs-dismiss="modal"
                     aria-label="Close"
                     aria-hidden="true"
@@ -172,9 +132,9 @@
                 </div>
                 <div class="modal-body">
                   <!-- Form to add user -->
-                  <form class="container-fluid bg-none" id="FormAddUser">
+                  <form class="container-fluid " id="FormAddUser">
                     <div class="form-group">
-                      <label for="fullName">Full Name</label>
+                      <label for="fullName"> Name</label>
                       <input
                         type="text"
                         class="form-control"
@@ -194,7 +154,7 @@
                       />
                     </div>
                     <div class="form-group">
-                      <label for="passwordInput">Password</label>
+                      <label for="passwordInput">Enter Password</label>
                       <input
                         type="password"
                         class="form-control"
@@ -213,7 +173,7 @@
                         Cancel
                       </button>
                       <button type="submit" class="btn btn-register">
-                        Save User
+                        Register
                       </button>
                     </div>
                   </form>
@@ -221,7 +181,7 @@
               </div>
             </div>
           </div>
-          <!-- MODAL FOR DISPLAYING USERS/CLIENTS -->
+ 
           <div
             class="modal fade"
             id="staticBackdropLabelClientsListModal"
@@ -260,8 +220,8 @@
           <!-- hero section left -->
           <div class="click-fit-home-left col-12 col-md-6" id="leftHero">
             <div class="click-fit-hero-title mt-0 mt-lg-4">
-              <h1><span>TIME</span> TO</h1>
-              <h1>GET <span>FIT</span></h1>
+              <h1><span>Elevat</span> Your</h1>
+              <h1> <span>FITNESS</span></h1>
             </div>
             <!-- upload box -->
             <div
@@ -278,7 +238,7 @@
               <div
                 class="info d-flex justify-content-center align-items-center"
               >
-                <img src="./assets/images/upload-icon.svg" alt="Upload Icon" />
+                <img class="upload" src="./assets/images/2893432.png" alt="Upload Icon" />
                 <span>Upload Image by Click or Drag and Drop</span>
               </div>
               <div class="imagesHolder" id="imagesHolder"></div>
@@ -298,63 +258,14 @@
             class="click-fit-home-right p-0 m-0 col-12 col-md-6"
             id="rightHero"
           >
-            <div class="container-images bg-none">
-              <input type="radio" name="slide" id="c1" />
-              <label for="c1" class="card position-relative">
-                <div class="row bg-none">
-                  <div class="icon">1</div>
-                  <div class="description">
-                    <h3>Personal Trainer</h3>
-                    <p>
-                      Personal Trainers work one-on-one with clients to create
-                      and implement customized fitness plans.
-                    </p>
-                  </div>
-                </div>
-              </label>
-              <input type="radio" name="slide" id="c2" checked />
-              <label for="c2" class="card">
-                <div class="row">
-                  <div class="icon">2</div>
-                  <div class="description">
-                    <h3>Why You?</h3>
-                    <p>Looking better is your will and our responsibility</p>
-                  </div>
-                </div>
-              </label>
-              <input type="radio" name="slide" id="c3" />
-              <label for="c3" class="card">
-                <div class="row">
-                  <div class="icon">3</div>
-                  <div class="description">
-                    <h3>What is There</h3>
-                    <p>
-                      You will love there if you come. there are all kinds of
-                      things to to make you shaped.
-                    </p>
-                  </div>
-                </div>
-              </label>
-              <input type="radio" name="slide" id="c4" />
-              <label for="c4" class="card">
-                <div class="row">
-                  <div class="icon">4</div>
-                  <div class="description">
-                    <h3>Sports Massage Therapist</h3>
-                    <p>
-                      They provide massage therapy to alleviate muscle soreness
-                    </p>
-                  </div>
-                </div>
-              </label>
-            </div>
+            
           </div>
         </div>
       </div>
     </main>
     <!-- ############# footer  -->
     <footer>
-      <!-- Footer content here -->
+     
     </footer>
 
     <!-- ##############scripts -->
