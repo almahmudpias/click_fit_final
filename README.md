@@ -40,3 +40,6 @@ please run a command
 ```
 npm run migrate:undo
 ```
+
+output of the project
+https://drive.google.com/file/d/1Zr7Hcv7ZanlGXOTykkx2NVIluX-AXOdx/view?usp=sharing
