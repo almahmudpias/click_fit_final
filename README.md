@@ -1,9 +1,9 @@
-# click_fit
-# Click fit By Md Abdullah Al Mahmud Pias 
 
+**Click fit By Md Abdullah Al Mahmud Pias** 
 
+![Project Screenshot](output.png)
  
-how to run the project
+**how to run the project**
 
 1. open the terminal and run the command
 ```
@@ -43,5 +43,3 @@ please run a command
 npm run migrate:undo
 ```
 
-output of the project
-https://drive.google.com/file/d/1Zr7Hcv7ZanlGXOTykkx2NVIluX-AXOdx/view?usp=sharing
